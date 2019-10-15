@@ -1,8 +1,8 @@
-#Awesome GIS（GIS Tech Stack技术栈）
+# Awesome GIS（GIS Tech Stack技术栈）
 
 > Geomatics专栏点此：http://www.jianshu.com/collection/3fa5e8ac3fbc
 
-##语言
+## 语言
 - [Python](https://www.python.org/) 最好的快速开发语言，是一门API艺术
    - [awesome-python](https://github.com/vinta/awesome-python)
    - [1简单的入门](http://www.jianshu.com/p/a2b172049730) 
@@ -19,7 +19,7 @@
    - [1常用Global库](http://www.jianshu.com/p/f161073ed3bc) 
    - [2入门及GeoNode.js GIS相关库](http://www.jianshu.com/p/4cb1af2b3976)
 
-##前段
+## 前段
 - [Leaflet](http://leafletjs.com/) 兼容移动端，和现代的一些框架一样优先考虑移动端
    - [1leaflet入门](http://www.jianshu.com/p/57464d925e45)
    - [2简单插件编写leaflet-pip-v2](http://www.jianshu.com/p/2ab5290fd66b)
@@ -33,7 +33,7 @@
    -[1简单入门](http://www.jianshu.com/p/184c0e8fe596)
    -[2进阶[译]用Webpack构建Vue](http://www.jianshu.com/p/a5361bff1cd8)
 
-##后端
+## 后端
 - [Geoserver](http://www.geoserver.org/) 基于Java的地理信息服务的发布，使用简单
     - [1深度入门](http://www.jianshu.com/p/411b488c918d)
 - [Mapserver](http://mapserver.org/) 基于C语言的地理信息服务的发布，内存占用小
@@ -45,7 +45,7 @@
     - [2python for GDAL](http://www.jianshu.com/p/2372fe239130)
     - [3gdal CLI Cheat Sheet](http://www.jianshu.com/p/6251400d0651)
 
-##数据格式
+## 数据格式
 - [GeoJSON](http://www.geojson.org/) 开源地理信息JSON格式
    - [1深度入门](http://www.jianshu.com/p/144033b1b87e) 
    - [2geojson-python-util]() 
@@ -58,7 +58,7 @@
    - [1地图瓦片整体介绍](http://www.jianshu.com/p/59d4ab010ee9)
    - [2瓦片数据的生成](http://www.jianshu.com/p/3ba47809fd5f)
 
-##数据库
+## 数据库
 - [Spatialite](http://www.gaia-gis.it/gaia-sins/) 空间数据的查询等处理，小项目足矣 
     - [1简单的入门](http://www.jianshu.com/p/f94d8eecc6b3)
     - [2CLI Cheat Sheet](http://www.jianshu.com/p/107962b36b38)
@@ -69,13 +69,13 @@
 - [MBTILES](https://github.com/mapbox/mbtiles-spec) 承载瓦片的数据，快速索引 
     - [1入门与简单应用](http://www.jianshu.com/p/a679fe351b98)
 
-###瓦片渲染
+### 瓦片渲染
 - **Global Mapper** 专门用作已有栅格图像切片
 - [Mapnik](http://mapnik.org/) 专门用于矢量数据的切片
    - [1入门及python接口使用](http://www.jianshu.com/p/6568769b4df4)
 - [TileMill](https://www.mapbox.com/tilemill/) 在矢量数据渲染时，运用CartoCSS对矢量数据赋予样式
 
-##软件应用
+## 软件应用
 - [QGIS](http://qgis.org/) 开源GIS数据处理桌面软件，其中包含[Grass](https://grass.osgeo.org/)，[SAGA](https://sourceforge.net/projects/saga-gis/)两个学术界开源GIS平台
    - [1简单的介绍](http://www.jianshu.com/p/2fb248033a31)
    - [2地图综合](http://www.jianshu.com/p/8ceefe8caaf0)
@@ -83,16 +83,16 @@
 - [Mapsharper](http://www.mapshaper.org/) 数据综合神器
    - [1地图综合神器](http://www.jianshu.com/p/55401c3ffc44)
 
-##数据资料
+## 数据资料
 - [地理空间数据云](http://www.gscloud.cn/) 免费数据，商业数据都有，满足你不同的需要
 - [CGIAR](http://srtm.csi.cgiar.org/)
 
-###GIS 博客
+### GIS 博客
 - [paulbourke](http://paulbourke.net/)
 
 整个技术栈主要针对的是轻量或者小项目去考虑，运用一些流行的尽可能开源的工具去做，这是我的一些想法和笔记，详情参考[从mapbox的开源工具看Web GIS的发展](http://www.jianshu.com/p/e6af6ef1f1c4)和[乱谈Leaflet的插件在WebGIS中作用](http://www.jianshu.com/p/47ed092f6b9c)，希望能给您一点点帮助。PS：我在github上看到一个[awesome gis](https://github.com/sshuair/awesome-gis)，并非我主导的，希望各位GISer可以一起参与修改。前端知识参考[前端经验收集器](http://www.jianshu.com/p/c1e3b96c1293)。
 
-#参考
+# 参考
  - [OpenStreetMap框架介绍](http://blog.csdn.net/longshengguoji/article/details/38958369?utm_source=tuicool&utm_medium=referral)
 
 转载，请表明出处。[总目录Awesome GIS](http://www.jianshu.com/p/3b3efa92dd6d)
